@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		297B5741EC98E413F7B2DBBE /* Pods_ASRoam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2B80C09127D9CB922F3597 /* Pods_ASRoam.framework */; };
+		588BAD6F1ECD3FC10047B241 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BAD6E1ECD3FC10047B241 /* AppDelegate.swift */; };
+		588BAD851ECD4FF90047B241 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BAD821ECD4FF90047B241 /* FirstVC.swift */; };
+		588BAD861ECD4FF90047B241 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BAD831ECD4FF90047B241 /* SecondVC.swift */; };
+		588BAD871ECD4FF90047B241 /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BAD841ECD4FF90047B241 /* ThirdVC.swift */; };
+		588BAD8B1ECD51EA0047B241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588BAD891ECD51EA0047B241 /* Assets.xcassets */; };
+		588BAD911ECD51FC0047B241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588BAD8D1ECD51FC0047B241 /* LaunchScreen.storyboard */; };
+		588BAD921ECD51FC0047B241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588BAD8F1ECD51FC0047B241 /* Main.storyboard */; };
+		588BAD941ECD52120047B241 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BAD931ECD52120047B241 /* RAMBounceAnimation.swift */; };
+		588BAD961ECD528B0047B241 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 588BAD951ECD528B0047B241 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D2B80C09127D9CB922F3597 /* Pods_ASRoam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASRoam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		588BAD6B1ECD3FC10047B241 /* ASRoam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASRoam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		588BAD6E1ECD3FC10047B241 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		588BAD821ECD4FF90047B241 /* FirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstVC.swift; path = VCs/FirstVC.swift; sourceTree = "<group>"; };
+		588BAD831ECD4FF90047B241 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondVC.swift; path = VCs/SecondVC.swift; sourceTree = "<group>"; };
+		588BAD841ECD4FF90047B241 /* ThirdVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdVC.swift; path = VCs/ThirdVC.swift; sourceTree = "<group>"; };
+		588BAD891ECD51EA0047B241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SupportingFiles/Assets.xcassets; sourceTree = "<group>"; };
+		588BAD8E1ECD51FC0047B241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SupportingFiles/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		588BAD901ECD51FC0047B241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SupportingFiles/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		588BAD931ECD52120047B241 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		588BAD951ECD528B0047B241 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		612E8E0607EB0721741BC3FC /* Pods-ASRoam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRoam.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASRoam/Pods-ASRoam.release.xcconfig"; sourceTree = "<group>"; };
+		DFC56011EDEE0CA78062AC1A /* Pods-ASRoam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASRoam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASRoam/Pods-ASRoam.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		588BAD681ECD3FC10047B241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297B5741EC98E413F7B2DBBE /* Pods_ASRoam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		588BAD621ECD3FC10047B241 = {
+			isa = PBXGroup;
+			children = (
+				588BAD6D1ECD3FC10047B241 /* ASRoam */,
+				588BAD6C1ECD3FC10047B241 /* Products */,
+				D75075A3CB92699CE09B735F /* Pods */,
+				B7BECD5868851BA766E3496D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		588BAD6C1ECD3FC10047B241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				588BAD6B1ECD3FC10047B241 /* ASRoam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		588BAD6D1ECD3FC10047B241 /* ASRoam */ = {
+			isa = PBXGroup;
+			children = (
+				588BAD6E1ECD3FC10047B241 /* AppDelegate.swift */,
+				588BAD931ECD52120047B241 /* RAMBounceAnimation.swift */,
+				588BAD811ECD4FEC0047B241 /* VCs */,
+				588BAD881ECD51810047B241 /* SupportingFiles */,
+			);
+			path = ASRoam;
+			sourceTree = "<group>";
+		};
+		588BAD811ECD4FEC0047B241 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				588BAD821ECD4FF90047B241 /* FirstVC.swift */,
+				588BAD831ECD4FF90047B241 /* SecondVC.swift */,
+				588BAD841ECD4FF90047B241 /* ThirdVC.swift */,
+			);
+			name = VCs;
+			sourceTree = "<group>";
+		};
+		588BAD881ECD51810047B241 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				588BAD951ECD528B0047B241 /* Info.plist */,
+				588BAD8D1ECD51FC0047B241 /* LaunchScreen.storyboard */,
+				588BAD8F1ECD51FC0047B241 /* Main.storyboard */,
+				588BAD891ECD51EA0047B241 /* Assets.xcassets */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		B7BECD5868851BA766E3496D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D2B80C09127D9CB922F3597 /* Pods_ASRoam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D75075A3CB92699CE09B735F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFC56011EDEE0CA78062AC1A /* Pods-ASRoam.debug.xcconfig */,
+				612E8E0607EB0721741BC3FC /* Pods-ASRoam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		588BAD6A1ECD3FC10047B241 /* ASRoam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 588BAD7D1ECD3FC10047B241 /* Build configuration list for PBXNativeTarget "ASRoam" */;
+			buildPhases = (
+				C1E4A56AFE51C0AB44D68B46 /* [CP] Check Pods Manifest.lock */,
+				588BAD671ECD3FC10047B241 /* Sources */,
+				588BAD681ECD3FC10047B241 /* Frameworks */,
+				588BAD691ECD3FC10047B241 /* Resources */,
+				AFD08F68DE75037291BB5450 /* [CP] Embed Pods Frameworks */,
+				E4437C6316884999B32B5C81 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASRoam;
+			productName = ASRoam;
+			productReference = 588BAD6B1ECD3FC10047B241 /* ASRoam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		588BAD631ECD3FC10047B241 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Ataluer;
+				TargetAttributes = {
+					588BAD6A1ECD3FC10047B241 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JF42YQ4EX9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 588BAD661ECD3FC10047B241 /* Build configuration list for PBXProject "ASRoam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 588BAD621ECD3FC10047B241;
+			productRefGroup = 588BAD6C1ECD3FC10047B241 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				588BAD6A1ECD3FC10047B241 /* ASRoam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		588BAD691ECD3FC10047B241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588BAD961ECD528B0047B241 /* Info.plist in Resources */,
+				588BAD921ECD51FC0047B241 /* Main.storyboard in Resources */,
+				588BAD8B1ECD51EA0047B241 /* Assets.xcassets in Resources */,
+				588BAD911ECD51FC0047B241 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AFD08F68DE75037291BB5450 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASRoam/Pods-ASRoam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1E4A56AFE51C0AB44D68B46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4437C6316884999B32B5C81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASRoam/Pods-ASRoam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		588BAD671ECD3FC10047B241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588BAD871ECD4FF90047B241 /* ThirdVC.swift in Sources */,
+				588BAD6F1ECD3FC10047B241 /* AppDelegate.swift in Sources */,
+				588BAD941ECD52120047B241 /* RAMBounceAnimation.swift in Sources */,
+				588BAD861ECD4FF90047B241 /* SecondVC.swift in Sources */,
+				588BAD851ECD4FF90047B241 /* FirstVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		588BAD8D1ECD51FC0047B241 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				588BAD8E1ECD51FC0047B241 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		588BAD8F1ECD51FC0047B241 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				588BAD901ECD51FC0047B241 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		588BAD7B1ECD3FC10047B241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		588BAD7C1ECD3FC10047B241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		588BAD7E1ECD3FC10047B241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC56011EDEE0CA78062AC1A /* Pods-ASRoam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JF42YQ4EX9;
+				INFOPLIST_FILE = ASRoam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ataluer.ASRoam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		588BAD7F1ECD3FC10047B241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 612E8E0607EB0721741BC3FC /* Pods-ASRoam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JF42YQ4EX9;
+				INFOPLIST_FILE = ASRoam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ataluer.ASRoam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		588BAD661ECD3FC10047B241 /* Build configuration list for PBXProject "ASRoam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588BAD7B1ECD3FC10047B241 /* Debug */,
+				588BAD7C1ECD3FC10047B241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		588BAD7D1ECD3FC10047B241 /* Build configuration list for PBXNativeTarget "ASRoam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588BAD7E1ECD3FC10047B241 /* Debug */,
+				588BAD7F1ECD3FC10047B241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 588BAD631ECD3FC10047B241 /* Project object */;
+}
