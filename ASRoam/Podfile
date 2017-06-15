@@ -6,8 +6,7 @@ target 'ASRoam' do
   use_frameworks!
 
   # Pods for ASRoam
-  pod 'RealmSwift'
-  pod 'RAMAnimatedTabBarController', "~> 2.0.13"
+  # pod 'RealmSwift'
   pod 'FoldingCell', '~> 2.0.3'
   pod 'expanding-collection', '~> 1.0.3'
   pod 'Alamofire', '~> 4.4'
