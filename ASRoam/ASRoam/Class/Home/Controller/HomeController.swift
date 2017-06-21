@@ -25,6 +25,7 @@ class HomeController: UIViewController, PageContentViewDelegate {
         for _ in 0..<4 {
             let vc = UIViewController()
             vc.view.backgroundColor = UIColor(r: CGFloat(arc4random_uniform(255)), g: CGFloat(arc4random_uniform(255)), b: CGFloat(arc4random_uniform(255)))
+            vc.view.backgroundColor = UIColor.white
             childVcs.append(vc)
         }
         

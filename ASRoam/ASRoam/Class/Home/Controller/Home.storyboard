@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="azn-zF-f7Y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="azn-zF-f7Y">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home Controller-->
+        <!--推荐-->
         <scene sceneID="VpV-SG-3cz">
             <objects>
                 <viewController id="acZ-JS-qoo" customClass="HomeController" customModule="ASRoam" customModuleProvider="target" sceneMemberID="viewController">
@@ -22,17 +22,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Mir-hM-Iqn"/>
+                    <navigationItem key="navigationItem" title="推荐" id="Mir-hM-Iqn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5an-sK-rxP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="996" y="-542.87856071964018"/>
         </scene>
-        <!--首页-->
+        <!--推荐-->
         <scene sceneID="nWg-ve-SIx">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="azn-zF-f7Y" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="首页" image="btn_home_normal" selectedImage="btn_home_selected" id="0LI-N2-1gf"/>
+                    <tabBarItem key="tabBarItem" title="推荐" image="home-7" selectedImage="home-7" id="0LI-N2-1gf"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="YO7-Sm-deV">
@@ -50,7 +50,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="btn_home_normal" width="24" height="24"/>
-        <image name="btn_home_selected" width="24" height="24"/>
+        <image name="home-7" width="30" height="30"/>
     </resources>
 </document>

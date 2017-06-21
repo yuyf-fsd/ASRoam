@@ -14,8 +14,8 @@ class RootController: UITabBarController {
         super.viewDidLoad()
         
         addChildVC(stroyName: "Home")
-        addChildVC(stroyName: "Live")
         addChildVC(stroyName: "Follow")
+        addChildVC(stroyName: "Find")
         addChildVC(stroyName: "Profile")
 
         // Do any additional setup after loading the view.

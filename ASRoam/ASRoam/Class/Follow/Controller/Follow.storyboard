@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Dnc-si-WGk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Dnc-si-WGk">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Follow Controller-->
         <scene sceneID="9VJ-Ro-GfP">
             <objects>
-                <viewController id="Gfe-Cd-8PD" sceneMemberID="viewController">
+                <viewController id="Gfe-Cd-8PD" customClass="FollowController" customModule="ASRoam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UqW-da-Cpb"/>
                         <viewControllerLayoutGuide type="bottom" id="RXx-et-htV"/>
@@ -20,7 +20,7 @@
                     <view key="view" contentMode="scaleToFill" id="9ii-63-am3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Axg-XQ-RNe"/>
                 </viewController>
@@ -32,10 +32,10 @@
         <scene sceneID="vwN-Q1-QP8">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dnc-si-WGk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="关注" image="btn_column_normal" selectedImage="btn_column_selected" id="TGq-5m-xTt"/>
+                    <tabBarItem key="tabBarItem" title="关注" image="bookmark-7" selectedImage="bookmark-7" id="TGq-5m-xTt"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kLD-hx-rYu">
+                    <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" id="kLD-hx-rYu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -50,7 +50,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="btn_column_normal" width="24" height="24"/>
-        <image name="btn_column_selected" width="24" height="24"/>
+        <image name="bookmark-7" width="30" height="30"/>
     </resources>
 </document>
