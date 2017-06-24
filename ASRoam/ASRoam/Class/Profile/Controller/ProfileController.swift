@@ -25,19 +25,6 @@ class ProfileController: UIViewController, WKUIDelegate, WKNavigationDelegate, U
         // TODO: dd
     }
     
-    func loadSubView() {
-        let webConfiguration = WKWebViewConfiguration()
-        webView = WKWebView(frame: .zero, configuration: webConfiguration)
-        webView.uiDelegate = self
-        webView.navigationDelegate = self
-        webView.allowsBackForwardNavigationGestures = true
-        view = webView
-        
-        let myURL = URL(string: "https://www.google.com")
-        let myRequest = URLRequest(url: myURL!)
-        webView.load(myRequest)
-    }
-    
     func initTable() {
         mineTable.delegate = self
         mineTable.dataSource = self
@@ -87,7 +74,7 @@ class ProfileController: UIViewController, WKUIDelegate, WKNavigationDelegate, U
         }
         //let cell = MineItemCell(style: UITableViewCellStyle.default, reuseIdentifier: MineItemCellID)
         
-        if indexPath.section == 2 {
+        if indexPath.section == 1 {
             if  indexPath.row == 0 {
                 cell.titleLabel.text = "我关注的主题"
             } else if  indexPath.row == 1 {
@@ -106,9 +93,21 @@ class ProfileController: UIViewController, WKUIDelegate, WKNavigationDelegate, U
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if indexPath.section == 0 {
-            
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        if indexPath.section == 1 && indexPath.row == 1 {
+            self.performSegue(withIdentifier: "ShowVL", sender: nil)
         }
     }
     
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowVL" {
+            //代码跳转，storyboard中连接了segue，则这里不需要重复调用
+            return;
+            //let sb = UIStoryboard(name: "Profile", bundle:nil)
+            //let vc = sb.instantiateViewController(withIdentifier: "VLController") as! VLController
+            //self.show(vc, sender: nil)
+        }
+    }
 }

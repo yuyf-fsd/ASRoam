@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		297B5741EC98E413F7B2DBBE /* Pods_ASRoam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2B80C09127D9CB922F3597 /* Pods_ASRoam.framework */; };
 		58119E5A1EF3D57E007030B2 /* FindController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58119E591EF3D57E007030B2 /* FindController.swift */; };
+		5853D8791EFD6F91009E7BD1 /* Videos in Resources */ = {isa = PBXBuildFile; fileRef = 5853D8781EFD6F91009E7BD1 /* Videos */; };
 		586ADBDB1EF96C4C0019C539 /* UserInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586ADBDA1EF96C4C0019C539 /* UserInfoCell.swift */; };
 		586ADBDD1EF96D620019C539 /* MineItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586ADBDC1EF96D620019C539 /* MineItemCell.swift */; };
+		587599C41EFD5B8B00DA4A45 /* VLController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587599C31EFD5B8B00DA4A45 /* VLController.swift */; };
 		588BAD6F1ECD3FC10047B241 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BAD6E1ECD3FC10047B241 /* AppDelegate.swift */; };
 		588BAD8B1ECD51EA0047B241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588BAD891ECD51EA0047B241 /* Assets.xcassets */; };
 		588BAD961ECD528B0047B241 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 588BAD951ECD528B0047B241 /* Info.plist */; };
+		589478BF1EFDE20700598739 /* VPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589478BE1EFDE20700598739 /* VPController.swift */; };
+		58956E981EFDEB0600468444 /* BMPlayerCustomControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58956E971EFDEB0600468444 /* BMPlayerCustomControlView.swift */; };
+		58956E9A1EFDEB5600468444 /* BMCustomPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58956E991EFDEB5600468444 /* BMCustomPlayer.swift */; };
 		58997DA61EF3B35E00AC1C85 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58997DA51EF3B35E00AC1C85 /* ProfileController.swift */; };
 		58AA37951EE13CA200D1D274 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AA377D1EE13CA200D1D274 /* Follow.storyboard */; };
 		58AA37961EE13CA200D1D274 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AA37801EE13CA200D1D274 /* Home.storyboard */; };
@@ -36,12 +41,17 @@
 		58119E551EF3D4A7007030B2 /* GDWebViewNavigationToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GDWebViewNavigationToolbar.swift; path = Class/Find/GDWebViewController/GDWebViewNavigationToolbar.swift; sourceTree = "<group>"; };
 		58119E561EF3D4A7007030B2 /* GDWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GDWebViewController.swift; path = Class/Find/GDWebViewController/GDWebViewController.swift; sourceTree = "<group>"; };
 		58119E591EF3D57E007030B2 /* FindController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FindController.swift; path = Class/Find/Controller/FindController.swift; sourceTree = "<group>"; };
+		5853D8781EFD6F91009E7BD1 /* Videos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Videos; sourceTree = SOURCE_ROOT; };
 		586ADBDA1EF96C4C0019C539 /* UserInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoCell.swift; sourceTree = "<group>"; };
 		586ADBDC1EF96D620019C539 /* MineItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineItemCell.swift; sourceTree = "<group>"; };
+		587599C31EFD5B8B00DA4A45 /* VLController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VLController.swift; sourceTree = "<group>"; };
 		588BAD6B1ECD3FC10047B241 /* ASRoam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASRoam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		588BAD6E1ECD3FC10047B241 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		588BAD891ECD51EA0047B241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SupportingFiles/Assets.xcassets; sourceTree = "<group>"; };
 		588BAD951ECD528B0047B241 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		589478BE1EFDE20700598739 /* VPController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPController.swift; sourceTree = "<group>"; };
+		58956E971EFDEB0600468444 /* BMPlayerCustomControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMPlayerCustomControlView.swift; sourceTree = "<group>"; };
+		58956E991EFDEB5600468444 /* BMCustomPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMCustomPlayer.swift; sourceTree = "<group>"; };
 		58997DA11EF367D500AC1C85 /* Find.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Find.storyboard; path = Class/Find/Controller/Find.storyboard; sourceTree = "<group>"; };
 		58997DA31EF367D500AC1C85 /* NextController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NextController.swift; path = Class/Find/Controller/NextController.swift; sourceTree = "<group>"; };
 		58997DA51EF3B35E00AC1C85 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
@@ -136,11 +146,23 @@
 		588BAD881ECD51810047B241 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				5853D8781EFD6F91009E7BD1 /* Videos */,
 				58AA37A11EE13DE700D1D274 /* LaunchScreen.storyboard */,
 				588BAD951ECD528B0047B241 /* Info.plist */,
 				588BAD891ECD51EA0047B241 /* Assets.xcassets */,
 			);
 			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		58956E9B1EFDF38D00468444 /* VLCollect */ = {
+			isa = PBXGroup;
+			children = (
+				587599C31EFD5B8B00DA4A45 /* VLController.swift */,
+				589478BE1EFDE20700598739 /* VPController.swift */,
+				58956E991EFDEB5600468444 /* BMCustomPlayer.swift */,
+				58956E971EFDEB0600468444 /* BMPlayerCustomControlView.swift */,
+			);
+			path = VLCollect;
 			sourceTree = "<group>";
 		};
 		58997D9E1EF367AF00AC1C85 /* Find */ = {
@@ -254,6 +276,7 @@
 		58AA378E1EE13CA200D1D274 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				58956E9B1EFDF38D00468444 /* VLCollect */,
 				586ADBD91EF96C200019C539 /* Cells */,
 				58AA378F1EE13CA200D1D274 /* Profile.storyboard */,
 				58997DA51EF3B35E00AC1C85 /* ProfileController.swift */,
@@ -363,6 +386,7 @@
 				58E8FE8B1EF3BCCC000CA368 /* Find.storyboard in Resources */,
 				58AA379A1EE13CA200D1D274 /* Main.storyboard in Resources */,
 				58AA37A31EE13DE700D1D274 /* LaunchScreen.storyboard in Resources */,
+				5853D8791EFD6F91009E7BD1 /* Videos in Resources */,
 				588BAD961ECD528B0047B241 /* Info.plist in Resources */,
 				58AA379D1EE13CA200D1D274 /* Profile.storyboard in Resources */,
 				58AA37961EE13CA200D1D274 /* Home.storyboard in Resources */,
@@ -429,14 +453,18 @@
 				58E8FE8D1EF3BE0C000CA368 /* FollowController.swift in Sources */,
 				58AA379C1EE13CA200D1D274 /* PageTitleView.swift in Sources */,
 				58AA379B1EE13CA200D1D274 /* RootController.swift in Sources */,
+				587599C41EFD5B8B00DA4A45 /* VLController.swift in Sources */,
 				58AA379F1EE13CA200D1D274 /* UIBarButtonItem-extension.swift in Sources */,
 				588BAD6F1ECD3FC10047B241 /* AppDelegate.swift in Sources */,
 				58AA37A01EE13CA200D1D274 /* UIColor-extension.swift in Sources */,
+				589478BF1EFDE20700598739 /* VPController.swift in Sources */,
 				58997DA61EF3B35E00AC1C85 /* ProfileController.swift in Sources */,
 				586ADBDD1EF96D620019C539 /* MineItemCell.swift in Sources */,
 				58AA37971EE13CA200D1D274 /* HomeController.swift in Sources */,
 				586ADBDB1EF96C4C0019C539 /* UserInfoCell.swift in Sources */,
+				58956E9A1EFDEB5600468444 /* BMCustomPlayer.swift in Sources */,
 				58AA37981EE13CA200D1D274 /* PageContentView.swift in Sources */,
+				58956E981EFDEB0600468444 /* BMPlayerCustomControlView.swift in Sources */,
 				58AA379E1EE13CA200D1D274 /* Common.swift in Sources */,
 				58119E5A1EF3D57E007030B2 /* FindController.swift in Sources */,
 			);

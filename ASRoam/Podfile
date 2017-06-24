@@ -10,6 +10,9 @@ target 'ASRoam' do
   pod 'FoldingCell', '~> 2.0.3'
   pod 'expanding-collection', '~> 1.0.3'
   pod 'Alamofire', '~> 4.4'
+  # pod 'MobilePlayer'
+  pod 'BMPlayer‘
+  
 end
 
 post_install do |installer|
