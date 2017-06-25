@@ -11,7 +11,7 @@ target 'ASRoam' do
   pod 'expanding-collection', '~> 1.0.3'
   pod 'Alamofire', '~> 4.4'
   # pod 'MobilePlayer'
-  pod 'BMPlayer‘
+  pod 'BMPlayer'
   
 end
 

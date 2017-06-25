@@ -40,7 +40,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ataluer_avatar" translatesAutoresizingMaskIntoConstraints="NO" id="wIp-Qq-eCg">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="wIp-Qq-eCg">
                                                     <rect key="frame" x="28" y="25" width="70" height="70"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="70" id="4mi-Ce-n9w"/>
@@ -246,7 +246,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ataluer_avatar" width="500" height="500"/>
+        <image name="avatar" width="800" height="600"/>
         <image name="btn_more" width="8" height="14"/>
         <image name="home-7" width="30" height="30"/>
         <image name="layer-7" width="30" height="30"/>

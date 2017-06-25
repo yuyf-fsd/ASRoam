@@ -10,7 +10,10 @@ import UIKit
 import BMPlayer
 
 class VPController: UIViewController {
-
+    
+    public var isVerifiedVP : Bool?
+    public var fileURL : String?
+    public var vTitle : String?
     @IBOutlet weak var player: BMCustomPlayer!
     
     override func viewDidLoad() {
@@ -23,14 +26,15 @@ class VPController: UIViewController {
             let _ = self.navigationController?.popViewController(animated: true)
         }
         
-//        let asset = BMPlayerResource(url: URL(string: "http://baobab.wdjcdn.com/1457162012752491010143.mp4")!,
-//                                     name: "周末号外丨中国第一高楼",
-//                                     cover: nil,
-//                                     subtitle: nil)
-        let asset = BMPlayerResource(url: URL(string: "http://baobab.wdjcdn.com/1457162012752491010143.mp4")!,
-                                     name: "周末号外丨中国第一高楼",
-                                     cover: nil,
-                                     subtitle: nil)
+        var urlString : URL!
+        if  self.isVerifiedVP == false {
+            urlString = URL(string: fileURL!)! as URL
+        } else {
+            urlString = URL(fileURLWithPath: fileURL!)
+        }
+        
+        print("## video url: \(urlString)")
+        let asset = BMPlayerResource(url: urlString as URL, name: vTitle!, cover: nil, subtitle: nil)
         player.setVideo(resource: asset)
     }
 
